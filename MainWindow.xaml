@@ -1,0 +1,124 @@
+﻿<Window x:Class="HellPie_Tools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HellPie_Tools"
+        mc:Ignorable="d"
+        ResizeMode="CanResizeWithGrip"
+        MinHeight="475"
+        MinWidth="800"
+        Title="MainWindow" Height="475" Width="800"
+        d:DataContext="{d:DesignInstance Type=local:PositionStuffVM}">
+    <Border BorderThickness="5" BorderBrush="Black" Margin="10">
+        <StackPanel>
+            <StackPanel Margin="0 10" HorizontalAlignment="Center" Orientation="Horizontal">
+                 <TextBlock HorizontalAlignment="Center"
+                            Text="Hell Pie Tools"
+                            FontSize="50"
+                            FontFamily="Comic Sans ms" />
+                 <Button Content="Hook Into Process"
+                         Click="HookIn_OnClick"
+                         FontSize="25" 
+                         Padding="10 0"
+                         Margin="20 0 0 0" 
+                         FontFamily="Comic Sans ms" />
+            </StackPanel>
+            <Label Content="Absolute Coordinates - exact coords to teleport to" 
+                   FontSize="25" 
+                   Margin="20 0 0 0"
+                   FontFamily="Comic Sans ms" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="x" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding AbsoluteXString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+                <Label Content="y" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding AbsoluteYString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+                <Label Content="z" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding AbsoluteZString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+            </StackPanel>
+            <Label Content="Relative Coordinates - will be added to absolute coords" 
+                   FontSize="25" 
+                   Margin="20 0 0 0"
+                   FontFamily="Comic Sans ms" />
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Center">
+                <Label Content="x" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding RelativeXString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+                <Label Content="y" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding RelativeYString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+                <Label Content="z" 
+                       FontSize="25" 
+                       Margin="20 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+                <TextBox Text="{Binding RelativeZString, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         FontFamily="Comic Sans ms" 
+                         FontSize="25" 
+                         Margin="10 0 20 0" 
+                         Width="150" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                        Margin="0 20 0 0">
+                <Button Margin="30 0 10 0" 
+                        Width="300" 
+                        x:Name="GetCoordsButton"
+                        Click="GetCoordsButton_OnClick"
+                        Content="get current coordinates" 
+                        FontFamily="Comic Sans ms"
+                        FontSize="25" />
+                <Label Content="or alt + g" 
+                       FontSize="25" 
+                       Margin="10 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                        Margin="0 20 0 0">
+                <Button Margin="30 0 10 0" 
+                        x:Name="SetCoordsButton"
+                        Click="SetCoordsButton_OnClick"
+                        Width="300" 
+                        Content="set current coordinates" 
+                        FontFamily="Comic Sans ms"
+                        FontSize="25" />
+                <Label Content="or alt + p" 
+                       FontSize="25" 
+                       Margin="10 0 0 0" 
+                       FontFamily="Comic Sans ms" />
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

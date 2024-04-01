@@ -1,0 +1,8 @@
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\HellPie Tools.pdb
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\Settings.json
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\D3DCompiler_47_cor3.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\PenImc_cor3.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\PresentationNative_cor3.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\vcruntime140_cor3.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\wpfgfx_cor3.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\Publish\HellPie Tools.exe

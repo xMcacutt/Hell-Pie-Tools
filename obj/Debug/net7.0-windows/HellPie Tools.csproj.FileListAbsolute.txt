@@ -1,0 +1,28 @@
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\HellPie Tools.exe
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\HellPie Tools.deps.json
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\HellPie Tools.runtimeconfig.json
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\HellPie Tools.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\HellPie Tools.pdb
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools_MarkupCompile.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools_MarkupCompile.lref
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.g.resources
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.csproj.CopyComplete
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\refint\HellPie Tools.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.pdb
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\ref\HellPie Tools.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.csproj.Fody.CopyLocal.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\obj\Debug\net7.0-windows\HellPie Tools.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\Settings.json
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\NHotkey.dll
+C:\Users\admin\RiderProjects\HellPie Tools\HellPie Tools\bin\Debug\net7.0-windows\NHotkey.Wpf.dll
